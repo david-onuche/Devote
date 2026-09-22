@@ -48,16 +48,6 @@
 			path = Devote;
 			sourceTree = "<group>";
 		};
-		6E6C454F3062165000FFDE50 /* DevoteTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DevoteTests;
-			sourceTree = "<group>";
-		};
-		6E6C45593062165000FFDE50 /* DevoteUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DevoteUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				6E6C453A3062164F00FFDE50 /* Devote */,
-				6E6C454F3062165000FFDE50 /* DevoteTests */,
-				6E6C45593062165000FFDE50 /* DevoteUITests */,
 				6E6C45393062164F00FFDE50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,9 +121,6 @@
 			dependencies = (
 				6E6C454E3062165000FFDE50 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				6E6C454F3062165000FFDE50 /* DevoteTests */,
-			);
 			name = DevoteTests;
 			productName = DevoteTests;
 			productReference = 6E6C454C3062165000FFDE50 /* DevoteTests.xctest */;
@@ -153,9 +138,6 @@
 			);
 			dependencies = (
 				6E6C45583062165000FFDE50 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				6E6C45593062165000FFDE50 /* DevoteUITests */,
 			);
 			name = DevoteUITests;
 			productName = DevoteUITests;
@@ -270,9 +252,7 @@
 				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,9 +284,7 @@
 				INFOPLIST_FILE = Devote/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
