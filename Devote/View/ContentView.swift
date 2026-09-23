@@ -70,6 +70,8 @@ struct ContentView: View {
                         Button(action: {
                             // TOGGLE APPEARNCE
                             isDarkMode.toggle()
+                            playSound(sound: "sound-tap", type: "mp3")
+                            feedback.notificationOccurred(.success)
                         }, label: {
                             Image(systemName: isDarkMode ? "moon.circle.fill" : "moon.circle")
                                 .resizable()
@@ -86,6 +88,8 @@ struct ContentView: View {
                     Button(
                         action: {
                             showNewTaskItem = true
+                            playSound(sound: "sound-ding", type: "mp3")
+                            feedback.notificationOccurred(.success)
                         },
                         label: {
                             HStack(spacing: 10) {
